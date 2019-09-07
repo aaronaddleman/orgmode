@@ -1,0 +1,16 @@
+* Clojurescript
+** Reframe
+*** reg-eventd-db
+When your modifying app state or the DB
+
+args: db
+returns: db
+*** reg-event-fx
+args: map of cofx
+returns: fx
+
+best to take the fx, and modify them with reg-fx
+*** reg-cofx, inject-cofx
+Reg-cofx to inject them into cofx
+*** reg-fx
+Extends the map of fx
